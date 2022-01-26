@@ -63,11 +63,11 @@ healthy & successful
         
         // Se define la accion
         let action = UIAlertAction(title: "Cerrar", style: .default) { UIAlertAction in
-            print("He pulsao el oton Cerrar")
+            print("He pulsado el boton Cerrar")
         }
         
         let action2 = UIAlertAction(title: "Aceptar", style: .default, handler: { (action) in
-            print("He pulsao el oton Aceptar")
+            print("He pulsao el boton Aceptar")
         })
         
         let action3 = UIAlertAction(title: "Cancelar", style: .destructive){_ in
